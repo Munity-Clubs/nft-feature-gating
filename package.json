@@ -1,0 +1,44 @@
+{
+  "name": "@munity/nft-feature-gating",
+  "version": "0.1.0",
+  "description": "Reusable NFT collection feature-gating helpers for community apps.",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "vitest run src/__tests__/nft-feature-gating.test.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "README.md",
+    "src/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Munity-Clubs/nft-feature-gating.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Munity-Clubs/nft-feature-gating/issues"
+  },
+  "homepage": "https://github.com/Munity-Clubs/nft-feature-gating#readme",
+  "license": "MIT",
+  "keywords": [
+    "nft",
+    "feature-gating",
+    "token-gating",
+    "polygon",
+    "solana",
+    "evm"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18.18 <23"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.5"
+  }
+}
