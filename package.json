@@ -1,5 +1,5 @@
 {
-  "name": "@munity/nft-feature-gating",
+  "name": "@munityclubs/nft-feature-gating",
   "version": "0.1.0",
   "description": "Reusable NFT collection feature-gating helpers for community apps.",
   "type": "module",

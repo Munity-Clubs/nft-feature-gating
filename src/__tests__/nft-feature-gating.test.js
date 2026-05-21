@@ -18,7 +18,7 @@ function collection(id, features = [], extra = {}) {
   };
 }
 
-describe("@munity/nft-feature-gating", () => {
+describe("@munityclubs/nft-feature-gating", () => {
   it("keeps the supported public feature set pinned", () => {
     expect(SUPPORTED_FEATURE_KEYS).toEqual(["files_tab", "roadmaps", "merch"]);
   });

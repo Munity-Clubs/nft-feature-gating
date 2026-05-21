@@ -1,4 +1,4 @@
-# @munity/nft-feature-gating
+# @munityclubs/nft-feature-gating
 
 Reusable NFT collection feature-gating helpers for community apps.
 
@@ -9,7 +9,7 @@ files, roadmap, or merch.
 ## Install
 
 ```bash
-npm install @munity/nft-feature-gating
+npm install @munityclubs/nft-feature-gating
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm install @munity/nft-feature-gating
 import {
   buildFeatureGating,
   evaluateFeatureAccess,
-} from "@munity/nft-feature-gating";
+} from "@munityclubs/nft-feature-gating";
 
 const gating = buildFeatureGating({
   publicCollections,
