@@ -1,5 +1,10 @@
 # @munityclubs/nft-feature-gating
 
+[![npm version](https://img.shields.io/npm/v/@munityclubs/nft-feature-gating.svg?style=flat-square)](https://www.npmjs.com/package/@munityclubs/nft-feature-gating)
+[![License: MIT](https://img.shields.io/npm/l/@munityclubs/nft-feature-gating.svg?style=flat-square)](./LICENSE)
+[![Security Policy](https://img.shields.io/badge/security-policy-blue?style=flat-square)](./SECURITY.md)
+[![Handoff](https://img.shields.io/badge/handoff-doc-green?style=flat-square)](./HANDOFF.md)
+
 Reusable NFT collection feature-gating helpers for community apps.
 
 Munity uses this pattern for Clubs where one community can have multiple NFT
